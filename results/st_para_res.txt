@@ -1,0 +1,158 @@
+*** Parallel Kafka consumer connected.
+
+========== Parallel Processing Workload 100000 ==========
+Processed 10000 records — Batch Time: 4.12s, Throughput: 2429.27/sec, CPU: 97.3%, Mem: 48.7%
+Processed 20000 records — Batch Time: 2.85s, Throughput: 3508.43/sec, CPU: 99.9%, Mem: 49.3%
+Processed 30000 records — Batch Time: 3.49s, Throughput: 2865.05/sec, CPU: 100.0%, Mem: 39.2%
+Processed 40000 records — Batch Time: 3.71s, Throughput: 2692.28/sec, CPU: 99.9%, Mem: 38.8%
+Processed 50000 records — Batch Time: 4.17s, Throughput: 2400.45/sec, CPU: 100.0%, Mem: 38.8%
+Processed 60000 records — Batch Time: 4.29s, Throughput: 2330.09/sec, CPU: 99.9%, Mem: 38.8%
+Processed 70000 records — Batch Time: 4.12s, Throughput: 2426.62/sec, CPU: 100.0%, Mem: 38.8%
+Processed 80000 records — Batch Time: 3.75s, Throughput: 2663.92/sec, CPU: 99.9%, Mem: 38.8%
+Processed 90000 records — Batch Time: 4.21s, Throughput: 2372.82/sec, CPU: 100.0%, Mem: 38.8%
+Processed 100000 records — Batch Time: 4.32s, Throughput: 2315.47/sec, CPU: 99.9%, Mem: 38.8%
+
+======> Final Metrics Summary for Workload 100000:
+   Total Records Processed: 100000
+   Total Workload Processing Time: 48.98 seconds
+   Average Time per Interval: 3.90 seconds
+   Average Throughput per Interval: 2600.44 records/sec
+   Average CPU Usage per Interval: 99.68%
+   Average Memory Usage per Interval: 40.88%
+
+*** Final Sentiment Counts: {'Positive': 77489, 'Negative': 14417, 'Neutral': 8094}
+*** Final Gender Counts: {'unknown': 54218, 'female': 28816, 'mostly_male': 1549, 'male': 10929, 'andy': 871, 'mostly_female': 3617}
+
+*** Top 5 Names (Rolling Window) after Workload 100000:
+   Amazon: 2919 times
+   Kindle: 157 times
+   Jennifer: 136 times
+   Jessica: 126 times
+   Lisa: 119 times
+
+========== Parallel Processing Workload 300000 ==========
+Processed 10000 records — Batch Time: 4.05s, Throughput: 2469.24/sec, CPU: 100.0%, Mem: 38.8%
+Processed 20000 records — Batch Time: 4.64s, Throughput: 2156.59/sec, CPU: 100.0%, Mem: 38.8%
+Processed 30000 records — Batch Time: 4.50s, Throughput: 2221.03/sec, CPU: 99.9%, Mem: 39.0%
+Processed 40000 records — Batch Time: 4.53s, Throughput: 2209.76/sec, CPU: 100.0%, Mem: 39.2%
+Processed 50000 records — Batch Time: 4.06s, Throughput: 2464.72/sec, CPU: 99.9%, Mem: 39.2%
+Processed 60000 records — Batch Time: 3.78s, Throughput: 2646.45/sec, CPU: 100.0%, Mem: 39.2%
+Processed 70000 records — Batch Time: 4.15s, Throughput: 2412.47/sec, CPU: 99.9%, Mem: 39.3%
+Processed 80000 records — Batch Time: 4.03s, Throughput: 2484.10/sec, CPU: 100.0%, Mem: 39.3%
+Processed 90000 records — Batch Time: 4.10s, Throughput: 2437.37/sec, CPU: 99.9%, Mem: 39.3%
+Processed 100000 records — Batch Time: 3.76s, Throughput: 2659.52/sec, CPU: 100.0%, Mem: 39.3%
+Processed 110000 records — Batch Time: 3.69s, Throughput: 2708.17/sec, CPU: 100.0%, Mem: 39.3%
+Processed 120000 records — Batch Time: 4.53s, Throughput: 2206.36/sec, CPU: 99.9%, Mem: 39.3%
+Processed 130000 records — Batch Time: 4.28s, Throughput: 2336.55/sec, CPU: 100.0%, Mem: 39.3%
+Processed 140000 records — Batch Time: 4.76s, Throughput: 2102.21/sec, CPU: 100.0%, Mem: 39.3%
+Processed 150000 records — Batch Time: 4.37s, Throughput: 2287.38/sec, CPU: 99.9%, Mem: 39.3%
+Processed 160000 records — Batch Time: 4.22s, Throughput: 2369.60/sec, CPU: 100.0%, Mem: 39.3%
+Processed 170000 records — Batch Time: 5.07s, Throughput: 1970.93/sec, CPU: 100.0%, Mem: 39.3%
+Processed 180000 records — Batch Time: 5.17s, Throughput: 1933.68/sec, CPU: 99.9%, Mem: 39.3%
+Processed 190000 records — Batch Time: 4.77s, Throughput: 2097.53/sec, CPU: 100.0%, Mem: 39.3%
+Processed 200000 records — Batch Time: 4.99s, Throughput: 2002.79/sec, CPU: 100.0%, Mem: 39.3%
+Processed 210000 records — Batch Time: 4.67s, Throughput: 2142.34/sec, CPU: 99.9%, Mem: 39.3%
+Processed 220000 records — Batch Time: 4.79s, Throughput: 2088.23/sec, CPU: 100.0%, Mem: 39.4%
+Processed 230000 records — Batch Time: 4.46s, Throughput: 2241.95/sec, CPU: 100.0%, Mem: 39.4%
+Processed 240000 records — Batch Time: 4.81s, Throughput: 2078.70/sec, CPU: 99.9%, Mem: 39.4%
+Processed 250000 records — Batch Time: 4.50s, Throughput: 2224.13/sec, CPU: 100.0%, Mem: 39.5%
+Processed 260000 records — Batch Time: 4.62s, Throughput: 2163.93/sec, CPU: 100.0%, Mem: 39.5%
+Processed 270000 records — Batch Time: 4.66s, Throughput: 2146.18/sec, CPU: 100.0%, Mem: 39.5%
+Processed 280000 records — Batch Time: 4.94s, Throughput: 2022.44/sec, CPU: 99.9%, Mem: 39.5%
+Processed 290000 records — Batch Time: 4.45s, Throughput: 2248.28/sec, CPU: 100.0%, Mem: 39.5%
+Processed 300000 records — Batch Time: 5.33s, Throughput: 1877.46/sec, CPU: 99.9%, Mem: 39.5%
+
+======> Final Metrics Summary for Workload 300000:
+   Total Records Processed: 300000
+   Total Workload Processing Time: 165.99 seconds
+   Average Time per Interval: 4.49 seconds
+   Average Throughput per Interval: 2247.00 records/sec
+   Average CPU Usage per Interval: 99.96%
+   Average Memory Usage per Interval: 39.30%
+
+*** Final Sentiment Counts: {'Neutral': 23092, 'Negative': 43301, 'Positive': 233607}
+*** Final Gender Counts: {'unknown': 171278, 'female': 77565, 'male': 34238, 'mostly_male': 4456, 'andy': 2523, 'mostly_female': 9940}
+
+*** Top 5 Names (Rolling Window) after Workload 300000:
+   Amazon: 2379 times
+   J.: 187 times
+   Kindle: 173 times
+   John: 155 times
+   Michael: 147 times
+
+========== Parallel Processing Workload 500000 ==========
+Processed 10000 records — Batch Time: 4.51s, Throughput: 2214.88/sec, CPU: 99.9%, Mem: 39.5%
+Processed 20000 records — Batch Time: 5.00s, Throughput: 1999.43/sec, CPU: 100.0%, Mem: 39.5%
+Processed 30000 records — Batch Time: 5.36s, Throughput: 1866.61/sec, CPU: 99.9%, Mem: 39.5%
+Processed 40000 records — Batch Time: 5.28s, Throughput: 1894.41/sec, CPU: 100.0%, Mem: 39.6%
+Processed 50000 records — Batch Time: 4.58s, Throughput: 2182.57/sec, CPU: 100.0%, Mem: 39.6%
+Processed 60000 records — Batch Time: 5.04s, Throughput: 1982.48/sec, CPU: 99.9%, Mem: 39.6%
+Processed 70000 records — Batch Time: 4.11s, Throughput: 2431.53/sec, CPU: 100.0%, Mem: 39.6%
+Processed 80000 records — Batch Time: 4.59s, Throughput: 2179.07/sec, CPU: 100.0%, Mem: 39.6%
+Processed 90000 records — Batch Time: 4.58s, Throughput: 2185.22/sec, CPU: 100.0%, Mem: 39.6%
+Processed 100000 records — Batch Time: 4.11s, Throughput: 2433.92/sec, CPU: 99.9%, Mem: 39.6%
+Processed 110000 records — Batch Time: 5.41s, Throughput: 1846.99/sec, CPU: 99.9%, Mem: 39.6%
+Processed 120000 records — Batch Time: 4.62s, Throughput: 2165.38/sec, CPU: 100.0%, Mem: 39.6%
+Processed 130000 records — Batch Time: 5.00s, Throughput: 1998.90/sec, CPU: 99.9%, Mem: 39.6%
+Processed 140000 records — Batch Time: 5.02s, Throughput: 1993.05/sec, CPU: 100.0%, Mem: 39.6%
+Processed 150000 records — Batch Time: 5.27s, Throughput: 1898.36/sec, CPU: 99.9%, Mem: 39.6%
+Processed 160000 records — Batch Time: 4.91s, Throughput: 2036.92/sec, CPU: 100.0%, Mem: 39.6%
+Processed 170000 records — Batch Time: 5.60s, Throughput: 1787.10/sec, CPU: 100.0%, Mem: 39.6%
+Processed 180000 records — Batch Time: 4.63s, Throughput: 2157.69/sec, CPU: 100.0%, Mem: 37.7%
+Processed 190000 records — Batch Time: 2.55s, Throughput: 3919.64/sec, CPU: 97.7%, Mem: 15.4%
+Processed 200000 records — Batch Time: 2.50s, Throughput: 4003.24/sec, CPU: 90.0%, Mem: 15.4%
+Processed 210000 records — Batch Time: 2.52s, Throughput: 3961.42/sec, CPU: 89.7%, Mem: 15.4%
+Processed 220000 records — Batch Time: 2.44s, Throughput: 4096.98/sec, CPU: 90.4%, Mem: 15.4%
+Processed 230000 records — Batch Time: 2.42s, Throughput: 4137.36/sec, CPU: 89.7%, Mem: 15.4%
+Processed 240000 records — Batch Time: 2.49s, Throughput: 4014.43/sec, CPU: 88.5%, Mem: 15.4%
+Processed 250000 records — Batch Time: 2.44s, Throughput: 4103.82/sec, CPU: 87.6%, Mem: 15.4%
+Processed 260000 records — Batch Time: 2.50s, Throughput: 3997.33/sec, CPU: 90.3%, Mem: 15.4%
+Processed 270000 records — Batch Time: 2.32s, Throughput: 4312.40/sec, CPU: 90.1%, Mem: 15.4%
+Processed 280000 records — Batch Time: 2.14s, Throughput: 4664.05/sec, CPU: 89.6%, Mem: 15.4%
+Processed 290000 records — Batch Time: 2.19s, Throughput: 4560.12/sec, CPU: 88.9%, Mem: 15.4%
+Processed 300000 records — Batch Time: 2.28s, Throughput: 4384.15/sec, CPU: 91.2%, Mem: 15.4%
+Processed 310000 records — Batch Time: 2.26s, Throughput: 4421.13/sec, CPU: 90.5%, Mem: 15.5%
+Processed 320000 records — Batch Time: 2.16s, Throughput: 4618.98/sec, CPU: 89.5%, Mem: 15.5%
+Processed 330000 records — Batch Time: 2.43s, Throughput: 4115.23/sec, CPU: 90.3%, Mem: 15.5%
+Processed 340000 records — Batch Time: 2.32s, Throughput: 4319.57/sec, CPU: 89.4%, Mem: 15.5%
+Processed 350000 records — Batch Time: 2.26s, Throughput: 4416.37/sec, CPU: 88.2%, Mem: 15.5%
+Processed 360000 records — Batch Time: 2.38s, Throughput: 4200.67/sec, CPU: 90.3%, Mem: 15.5%
+Processed 370000 records — Batch Time: 2.37s, Throughput: 4216.44/sec, CPU: 90.2%, Mem: 15.5%
+Processed 380000 records — Batch Time: 2.33s, Throughput: 4283.10/sec, CPU: 90.9%, Mem: 15.5%
+Processed 390000 records — Batch Time: 2.18s, Throughput: 4591.75/sec, CPU: 89.4%, Mem: 15.5%
+Processed 400000 records — Batch Time: 2.25s, Throughput: 4442.06/sec, CPU: 90.0%, Mem: 15.5%
+Processed 410000 records — Batch Time: 2.33s, Throughput: 4295.83/sec, CPU: 90.2%, Mem: 15.5%
+Processed 420000 records — Batch Time: 1.58s, Throughput: 6331.93/sec, CPU: 85.1%, Mem: 15.5%
+Processed 430000 records — Batch Time: 1.93s, Throughput: 5183.94/sec, CPU: 87.2%, Mem: 15.5%
+Processed 440000 records — Batch Time: 2.20s, Throughput: 4549.38/sec, CPU: 88.3%, Mem: 15.5%
+Processed 450000 records — Batch Time: 2.52s, Throughput: 3974.60/sec, CPU: 89.9%, Mem: 15.5%
+Processed 460000 records — Batch Time: 2.48s, Throughput: 4027.30/sec, CPU: 88.5%, Mem: 15.5%
+Processed 470000 records — Batch Time: 2.42s, Throughput: 4133.27/sec, CPU: 89.1%, Mem: 15.5%
+Processed 480000 records — Batch Time: 2.42s, Throughput: 4127.26/sec, CPU: 89.7%, Mem: 15.5%
+Processed 490000 records — Batch Time: 3.01s, Throughput: 3323.91/sec, CPU: 89.7%, Mem: 15.5%
+Processed 500000 records — Batch Time: 2.86s, Throughput: 3491.69/sec, CPU: 89.8%, Mem: 15.5%
+
+======> Final Metrics Summary for Workload 500000:
+   Total Records Processed: 500000
+   Total Workload Processing Time: 202.46 seconds
+   Average Time per Interval: 3.26 seconds
+   Average Throughput per Interval: 3489.48 records/sec
+   Average CPU Usage per Interval: 93.38%
+   Average Memory Usage per Interval: 24.11%
+
+*** Final Sentiment Counts: {'Neutral': 33614, 'Positive': 409267, 'Negative': 57119}
+*** Final Gender Counts: {'male': 61857, 'unknown': 274056, 'mostly_male': 7946, 'female': 134367, 'andy': 4430, 'mostly_female': 17344}
+
+*** Top 5 Names (Rolling Window) after Workload 500000:
+   Amazon: 2852 times
+   J.: 254 times
+   M.: 210 times
+   Kindle: 194 times
+   S.: 185 times
+Uploaded graph to s3://s3-bucket-x24112682/results/stream_parallel_results.png
+
+*** All combined graphs plotted and saved in 'results' folder.
+
+
+Process exited with code: 0
+Pane is dead

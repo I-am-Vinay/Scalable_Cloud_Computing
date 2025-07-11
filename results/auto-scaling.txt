@@ -1,0 +1,42 @@
+[Auto-Scaler] Stream workload manager active...
+
+Active Workers: 2 | Avg CPU: 12.44%
+
+[Auto-Scaler] Stream workload manager active...
+
+Active Workers: 2 | Avg CPU: 12.44%
+----> Detected Low workload. Removing one worker.
+----> Worker instance i-0df8a0941649ce9c1 terminated.
+Active Workers: 1 | Avg CPU: 35.30%
+----> No need of scaling action needed.
+Active Workers: 1 | Avg CPU: 35.30%
+----> No need of scaling action needed.
+Active Workers: 1 | Avg CPU: 48.17%
+----> No need of scaling action needed.
+Active Workers: 1 | Avg CPU: 99.95%
+----> Detected High Workload. Adding one worker.
+****** Creating a new worker instance ****** 
+----> Worker instance i-0b216b2a6d7910065 launched.
+Active Workers: 4 | Avg CPU: 99.96%
+----> No need of scaling action needed.
+Active Workers: 4 | Avg CPU: 33.32%
+----> No need of scaling action needed.
+Active Workers: 4 | Avg CPU: 25.91%
+----> No need of scaling action needed.
+Active Workers: 4 | Avg CPU: 25.97%
+----> No need of scaling action needed.
+Active Workers: 4 | Avg CPU: 25.73%
+----> No need of scaling action needed.
+Active Workers: 4 | Avg CPU: 25.29%
+----> No need of scaling action needed.
+Active Workers: 4 | Avg CPU: 44.51%
+----> No need of scaling action needed.
+Active Workers: 4 | Avg CPU: 22.43%
+----> No need of scaling action needed.
+Active Workers: 4 | Avg CPU: 11.51%
+----> Detected Low workload. Removing one worker.
+----> Worker instance i-0b216b2a6d7910065 terminated.
+Active Workers: 3 | Avg CPU: 10.25%
+----> Detected Low workload. Removing one worker.
+----> Worker instance i-0ed78bb5b67cc6b55 terminated.
+Traceback (most recent call last):
